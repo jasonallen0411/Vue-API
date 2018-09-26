@@ -1,0 +1,39 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../images/chuckNorris.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 500px;
+	height: 100vh;
+
+}
+
+#appTitle{
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media screen and (max-width: 955px){
+	
+}*/
+
+
+
+
+/*-webkit-transition-duration: .5s;
+	-o-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	transition-duration: .5s;*/
+

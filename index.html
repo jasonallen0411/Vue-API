@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>VUE API Chuck Norris</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+<body>	
+
+<div id="CNFacts">
+	<h1 id="appTitle">{{ appTitle }}</h1>
+
+	<div class="input-group mb-3">
+  <input id="searchInput" v-model="searchTerm" type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
+  <div class="input-group-append">
+	<button v-on:click="searchTerm" type="button" class="btn btn-success">Get Fact!</button>
+  </div>
+</div>
+
+</div>
+
+
+		
+
+<script src="js/jquery.min.js"></script>
+<script src="js/TweenMax.min.js"></script>	
+<script src="js/bootstrap.min.js"></script>
+<script src="js/skrollr.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
